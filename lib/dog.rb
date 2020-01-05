@@ -3,15 +3,15 @@ class Dog
 
 attr_accessor :name   
   
-  @@dog_certificates = []
+  @@all = []
   
 def initialize (name)
   @name = name 
-  @@dog_certificates << self 
+  @@all << self 
 end 
   
 def self.all 
-  @@dog_certificates
+  @@all 
 end 
   
 end 
