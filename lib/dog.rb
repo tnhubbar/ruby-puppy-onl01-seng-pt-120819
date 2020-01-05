@@ -25,8 +25,7 @@ end
 
 def self.print_all 
   puts  @@all.map do |dog|
-    dog.name 
-  end 
+    dog.name end 
 end 
 
 end 
