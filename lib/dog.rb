@@ -24,7 +24,7 @@ def self.clear_all
 end 
 
 def self.print_all 
-  p @@all.map do |dog|
+  puts  @@all.map do |dog|
     dog.name 
   end 
 end 
